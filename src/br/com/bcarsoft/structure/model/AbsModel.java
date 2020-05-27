@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.bcarsoft.site.structure.model;
+package br.com.bcarsoft.structure.model;
 
 /**
  * Abstract model for all another models to SQL tables.

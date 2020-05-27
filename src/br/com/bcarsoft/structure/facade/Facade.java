@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.bcarsoft.site.structure.facade;
+package br.com.bcarsoft.structure.facade;
 
 /**
  * Project Facade.
