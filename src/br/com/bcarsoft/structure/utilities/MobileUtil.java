@@ -89,8 +89,6 @@ public abstract class MobileUtil {
         return this.isValid();
     }
     
-    // need methods
-    
     /**
      * Verifies if a string has a valid size.
      * @param word
