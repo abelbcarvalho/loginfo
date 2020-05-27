@@ -12,13 +12,32 @@ package br.com.bcarsoft.structure.utilities;
 public final class StringUtil {
     
     /**
+     * This method returns the length of a String.
+     * @param word String.
+     * @return Integer equals to word.length().
+     */
+    public static int strLen(final String word) {
+        return word.length();
+    }
+    
+    /**
+     * This method verifies if a String has up to this length sent.
+     * @param word String - the word.
+     * @param len Integer - the length sent.
+     * @return true if word.length() is smaller or equals to len.
+     */
+    public static boolean isStringUtilLen(final String word, final int len) {
+        return strLen(word) <= len;
+    }
+    
+    /**
      * This method can calculate the string length.
      * @param word String.
      * @param len Integer.
      * @return true if string length is equals to len.
      */
     public static boolean isStringThisLen(final String word, final int len) {
-        return word.length() == len;
+        return strLen(word) == len;
     }
     
     /**
