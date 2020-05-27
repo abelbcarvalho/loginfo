@@ -9,6 +9,6 @@ package br.com.bcarsoft.structure.facade;
  * Project Facade.
  * @author abel
  */
-public class Facade implements IFacade{
+public class Facade implements IFacade {
     
 }
