@@ -9,7 +9,7 @@ package br.com.bcarsoft.site.structure.model;
  * Abstract model for all another models to SQL tables.
  * @author abel
  */
-public class AbsModel {
+public abstract class AbsModel {
     private int id;
     private int fk;
 
