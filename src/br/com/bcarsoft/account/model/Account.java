@@ -5,6 +5,7 @@
  */
 package br.com.bcarsoft.account.model;
 
+import br.com.bcarsoft.date.model.Date;
 import br.com.bcarsoft.structure.model.AbsModel;
 
 /**
@@ -14,6 +15,7 @@ import br.com.bcarsoft.structure.model.AbsModel;
 public class Account extends AbsModel {
     private String name;
     private String gender;
+    private Date date;
     private String user;
     private String email;
     private String pass;
@@ -26,6 +28,7 @@ public class Account extends AbsModel {
         super();
         this.name = "";
         this.gender = this.name;
+        this.date = null;
         this.user = this.gender;
         this.email = this.user;
         this.pass = this.email;
@@ -48,6 +51,14 @@ public class Account extends AbsModel {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
     }
 
     public String getUser() {
